@@ -1,0 +1,19 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body main{
+   background-image: url(/imagens/fundo-madeira.jpg);
+   background: absolute fixed;
+   height:95vh;
+   width: 100vw;
+ }
+
+ main iframe{
+   height: 635px;
+   width: 320px;
+   margin: auto;
+   border: none;
+ }

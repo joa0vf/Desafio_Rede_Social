@@ -1,8 +1,7 @@
 @charset "UTF-8"
-* {
+;*{
    margin: 0px;
    padding: 0px;
-   box-sizing: border-box;
  }
 
  html,body{
@@ -15,7 +14,7 @@
   /*BODY*/
   
   body{
-    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background: url('/imagens/Chaos2.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
   }

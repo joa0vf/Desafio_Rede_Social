@@ -22,6 +22,7 @@
  /*MAIN*/
 
  main{
+  
   height: 100vh;
   position: relative;
  }
@@ -43,4 +44,22 @@
   height: 471px;
   width: 267px;
   background-size: cover;
+ }
+
+ section#redes-sociais{
+  text-align: right;
+ }
+
+ section#redes-sociais img{
+  width: 50px;
+  margin: 10px;
+  border-radius: 12px;
+  box-sizing: border-box;
+ }
+ 
+ section#redes-sociais img:hover{
+  border: 1.5px solid rgba(255, 255, 255, 0.596);
+  transform: translate(-5px, 0px);
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.363);
+  transition: transform 0.3s, box-shadow 0.4s;
  }
